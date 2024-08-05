@@ -122,7 +122,6 @@ span{
     position: relative;
     top: -440px;
     left: 240px;
-
 }
 .right:hover{
     position: relative;
@@ -464,5 +463,23 @@ footer li{
         .last{
             display: flex;
             flex-direction: column;
+        }
+        .left .flo-en{
+            width: 220px;
+            height: 150px;
+        }
+        .flo-en{
+            position: relative;
+            top: -260px;
+            left: -100px;
+        }
+        .right .flo{
+            width: 220px;
+            height: 150px;
+        }
+        .flo{
+            position: relative;
+            top: -440px;
+            left: 110px;
         }
 }
