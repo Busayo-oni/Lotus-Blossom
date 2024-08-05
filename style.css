@@ -112,8 +112,19 @@ span{
     height: 300px;
     border-radius: 100px;
     padding-top: 50px;
+    position: relative;
 }
-.right img:hover{
+.right .flo{
+    width: 350px;
+    height: 150px;
+}
+.flo{
+    position: relative;
+    top: -440px;
+    left: 240px;
+
+}
+.right:hover{
     position: relative;
     top: 20px;
     transition: 1s;
@@ -172,9 +183,18 @@ span{
     height: 300px;
     border-radius: 90px;
 }
-.left img:hover{
+.left .flo-en{
+    width: 350px;
+    height: 200px;
+}
+.flo-en{
     position: relative;
-    right: 30px;
+    top: -410px;
+    left: -100px;
+}
+.left:hover{
+    position: relative;
+    top: 30px;
 }
 .about{
     background-color: #fcecef;
@@ -275,6 +295,9 @@ span{
     border-radius: 50px;
     display: grid;
     grid-template-columns: 2fr 1fr;
+}
+.afford p{
+    font-size: 12px;
 }
 .flex{
     display: flex;
