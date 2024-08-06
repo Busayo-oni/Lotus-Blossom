@@ -360,7 +360,9 @@ footer li{
     width: 20px;
 }
 
-@media screen and (max-width: 800px)
+/* view for tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1023px)
 {
     p{
         font-size: 11px;
@@ -659,3 +661,55 @@ footer li{
             font-weight: 400;
         }
     }
+
+    /* View for Ipad Pro */
+@media screen and (min-width: 1024px) and (max-width: 1365px){
+        .hero{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+    .hero div{
+        margin: 10px 30px;
+    }
+    .gallery .pics{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-gap: 20px;   
+    }
+    .spa{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+    .spa div{
+        margin: 10px 30px;
+    }
+    .expert .pro{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        padding: 0 50px;
+    }
+    .pro img{
+        width: 250px;
+        height: 320px;
+        border-radius: 20px;
+        box-shadow: 3px 3px 3px 3px #ffc0cb;
+    }
+    .afford{
+        background-color: #fcecef;
+        padding: 20px 10px;
+        width: 55vh;
+        border-radius: 50px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        position: relative;
+        right: 80px;
+    }
+    .but{
+        position: relative;
+        left: 10%;
+        top: 50%;
+    }
+}
